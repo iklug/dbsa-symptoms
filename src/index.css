@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* border: 1px solid red; */
+}
+
+:root {
+  box-sizing: border-box;
+  overflow: scroll;
+  print-color-adjust: exact;
+}
+
+.triangle {
+  clip-path: polygon(100% 33%, 0 52%, 100% 63%);
+}
+
+#cone {
+  clip-path: polygon(51% 21%, 41% 100%, 58% 100%);
+}
+
+.quote {
+  @apply bg-green-300 text-green-700;
+}
